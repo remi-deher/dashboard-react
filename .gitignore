@@ -1,0 +1,22 @@
+# Fichiers Système
+.DS_Store
+Thumbs.db
+
+# === Frontend Next.js (/ui) ===
+/ui/node_modules
+/ui/.next
+/ui/out
+/ui/.env.local
+/ui/npm-debug.log*
+/ui/yarn-debug.log*
+/ui/yarn-error.log*
+
+# === Backend Symfony (/api) ===
+/api/vendor/
+/api/var/
+/api/.env.local
+/api/.env.*.local
+/api/public/build/
+/api/public/bundles/
+/api/public/uploads/
+/api/.env
